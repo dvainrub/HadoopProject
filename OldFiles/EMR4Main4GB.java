@@ -23,10 +23,9 @@ public class EMR4Main4GB {
 
 		System.out.println("EMR4 Main for 4GB file");
 
-//		AWSCredentials credentials = new ProfileCredentialsProvider().getCredentials();
-//		AmazonElasticMapReduce mapReduce = new AmazonElasticMapReduceClient(credentials);
+		AWSCredentials credentials = new ProfileCredentialsProvider().getCredentials();
+		AmazonElasticMapReduce mapReduce = new AmazonElasticMapReduceClient(credentials);
 
-		BasicAWSCredentials credentials=new BasicAWSCredentials("AKIAJFH2HEGSBCVRIMEQ", "mdpMPU+SsqPn7ceYcTY2kmgliA4TNazETkIG2DoM");
 		//AmazonS3Client s3=new AmazonS3Client(credentials);
 //		AmazonSQS sqs = new AmazonSQSClient(credentials);
 
